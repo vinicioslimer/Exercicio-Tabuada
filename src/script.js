@@ -11,8 +11,6 @@ function tabuar() {
     for (let i=0; i <= 10; i++) {
     n = Number(num.value);
     res.innerHTML += `${n} X ${i} = ` + n*i + "<br>";
-    }
-
-    //teste
-}
+        }
+    }   
 }
